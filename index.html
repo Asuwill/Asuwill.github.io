@@ -64,7 +64,7 @@
     <article id="post-NSURLSession理解" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/02/16/NSURLSession理解/" class="article-date">
-  <time datetime="2016-02-16T03:49:46.000Z" itemprop="datePublished">2016-02-16</time>
+  <time datetime="2016-02-16T03:53:54.000Z" itemprop="datePublished">2016-02-16</time>
 </a>
     
   </div>
@@ -83,7 +83,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h4 id="NSURLSession_u6982_u8FF0"><a href="#NSURLSession_u6982_u8FF0" class="headerlink" title="NSURLSession概述"></a>NSURLSession概述</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">NSURLSession是iOS7中新提供的网络套件，NSURLSession及其相关类提供一套用于内容下载的API。这个API提供了一组丰富的委托方法，用以支持鉴权，可以让app能够在挂起的时候支持后台下载任务等。</span><br><span class="line"></span><br><span class="line">NSURLSession类支持数据、文件、FTP、HTTP和HTTPS URL schemes，透明化的支持代理服务器和SOCKS网关，如用户的系统偏好设置进行偏好设置。您还可以添加支持您自己的自定义网络协议和网址计划（用于您的应用程序的私人用途）。</span><br><span class="line"></span><br><span class="line">它与iOS2~<span class="number">9</span>以前是用的NSURLConnection是类似。但是在iOS9之后，苹果将不再支持NSURLConnection,而是改为全面支持NSURLSession在程序在前台时，NSURLSession与NSURLConnection可以互为替代工作。但是如果用户强制将程序关闭，NSURLSession同样会断掉。</span><br></pre></td></tr></table></figure>
+        <h4 id="NSURLSession_u6982_u8FF0"><a href="#NSURLSession_u6982_u8FF0" class="headerlink" title="NSURLSession概述"></a>NSURLSession概述</h4><p>NSURLSession是iOS7中新提供的网络套件，NSURLSession及其相关类提供一套用于内容下载的API。这个API提供了一组丰富的委托方法，用以支持鉴权，可以让app能够在挂起的时候支持后台下载任务等。</p>
+<p>NSURLSession类支持数据、文件、FTP、HTTP和HTTPS URL schemes，透明化的支持代理服务器和SOCKS网关，如用户的系统偏好设置进行偏好设置。您还可以添加支持您自己的自定义网络协议和网址计划（用于您的应用程序的私人用途）。</p>
+<p>它与iOS2~9以前是用的NSURLConnection是类似。但是在iOS9之后，苹果将不再支持NSURLConnection,而是改为全面支持NSURLSession在程序在前台时，NSURLSession与NSURLConnection可以互为替代工作。但是如果用户强制将程序关闭，NSURLSession同样会断掉。</p>
 <h4 id="NSURLSession__u662F_u4EC0_u4E48_uFF1F_u5B83_u4E0D_u662F_u4EC0_u4E48_3F"><a href="#NSURLSession__u662F_u4EC0_u4E48_uFF1F_u5B83_u4E0D_u662F_u4EC0_u4E48_3F" class="headerlink" title="NSURLSession 是什么？它不是什么?"></a>NSURLSession 是什么？它不是什么?</h4><p>NSURLSession有会话的概念，它是基于会话形式组织的。官方文档描述说：</p>
 <blockquote>
 <p> With the NSURLSession API, your app creates one or more sessions, each of which coordinates a group of related data transfer tasks. For example, if you are writing a web browser, your app might create one session per tab or window, or one session for interactive use and another session for background downloads. Within each session, your app adds a series of tasks, each of which represents a request for a specific URL (following HTTP redirects if necessary).</p>
@@ -127,7 +129,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://asuwill.github.io/2016/02/16/NSURLSession理解/" data-id="cikovi7ch00029sbrnqggaosi" class="article-share-link">Share</a>
+      <a data-url="https://asuwill.github.io/2016/02/16/NSURLSession理解/" data-id="cikovll6x0002aibrlds484yo" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
@@ -165,7 +167,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://asuwill.github.io/2016/02/15/NSURLSessionConfiguration学习/" data-id="cikovi7cn00059sbrbe5ry3fj" class="article-share-link">Share</a>
+      <a data-url="https://asuwill.github.io/2016/02/15/NSURLSessionConfiguration学习/" data-id="cikovll740005aibro3j7aw18" class="article-share-link">Share</a>
       
       
     </footer>
@@ -210,7 +212,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://asuwill.github.io/2016/02/15/hello-world/" data-id="cikovi7cd00019sbr6v59ba64" class="article-share-link">Share</a>
+      <a data-url="https://asuwill.github.io/2016/02/15/hello-world/" data-id="cikovll6k0001aibraw2b83qb" class="article-share-link">Share</a>
       
       
     </footer>
